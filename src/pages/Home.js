@@ -36,6 +36,8 @@ const Home = () => {
     return () => {};
   }, []);
 
+  console.log(portant)
+
   return (
     <div className="root">
       { !portant ? (
@@ -54,9 +56,9 @@ const Home = () => {
           </main>
         </Fragment>
       ) : (
-          <div className="err-root">
-            <h4 className="text-center text-light orientationErr">Please use Landscape!</h4>
-          </div>
+        <div className="err-root">
+          <h4 className="text-center text-light orientationErr">Please use Landscape!</h4>
+        </div>
       )}
     </div>
   );
