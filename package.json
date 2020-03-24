@@ -1,19 +1,35 @@
 {
-  "name": "course",
+  "name": "course-template",
   "version": "0.1.0",
   "private": true,
+  "author": "Sofiqul Islam <schoolwab@gmail.com> (https://github.com/schoolwab)",
+  "homepage": "https://reactsc.github.io/course-template/",
   "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^18.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^18.0.0",
+    "@ckeditor/ckeditor5-build-inline": "^18.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^18.0.0",
+    "@ckeditor/ckeditor5-indent": "^18.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-html-parser": "^2.0.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

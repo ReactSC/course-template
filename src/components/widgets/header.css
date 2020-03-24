@@ -1,0 +1,39 @@
+/* left side */
+.left{
+
+}
+.subfixed {
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+span {
+  font-size: 18px;
+}
+
+
+/* right side */
+.right {
+  margin-top: -15px;
+  margin-left: auto;
+}
+.number-prefix {
+  font-size: 35px;
+}
+.number {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* imput style */
+input {
+  background: #49368A;
+  color: #fff;
+  font-weight: 100;
+  border: 1px solid #8478ad;
+  border-radius: 5px;
+}
+input.number {
+  width: 70px;
+  font-weight: 100;
+}
