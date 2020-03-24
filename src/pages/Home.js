@@ -54,7 +54,9 @@ const Home = () => {
           </main>
         </Fragment>
       ) : (
-        <h4 className="text-center">Please use Landscape!</h4>
+          <div className="err-root">
+            <h4 className="text-center text-light orientationErr">Please use Landscape!</h4>
+          </div>
       )}
     </div>
   );

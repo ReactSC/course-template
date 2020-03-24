@@ -37,9 +37,18 @@
   padding: 15px;
 }
 
-
-.err-root, .err-root h3 {
-  display: none !important;
-  opacity: 0;
+.err-root {
+  width: 100%;
+  min-height: 100vh;
+  background: #49368A;
 }
-
+.orientationErr {
+  width: 250px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
