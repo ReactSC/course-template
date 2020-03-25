@@ -50,7 +50,7 @@ const Tutor = () => {
   return (
     <div>
       <div className="tutor-title d-flex">
-        Tutor
+        INSTRUCTOR
         <span
           className="edit-icon ml-auto"
           onClick={() =>
